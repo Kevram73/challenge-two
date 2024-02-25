@@ -1,0 +1,182 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+body{
+    background-color: #1F2339;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-top: 20px;
+    margin-bottom: 20px;
+    color: #FFFFFF;
+}
+
+
+.right-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile-image{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.search-bar input{
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 5px;
+    font-size: 12px;
+    background-color: #242942;
+}
+
+.input-box {
+    display: flex;
+    align-items: center;
+    max-width: 350px;
+    background: #242942;
+    border-radius: 4px;
+    padding-left: 0.5rem;
+    overflow: hidden;
+    font-family: sans-serif;
+  }
+  
+  .input-box .prefix {
+    font-weight: 300;
+    font-size: 12px;
+    color: #646464;
+  }
+  
+  .input-box input {
+    flex-grow: 1;
+    font-size: 14px;
+    background: #242942;
+    border: none;
+    outline: none;
+    padding: 0.8rem;
+  }
+  
+  .input-box:focus-within {
+    border-color: #242942;
+  }
+
+  .logo-head{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .logo-head-text{
+    font-size: 20px;
+  }
+
+  .logo-img{
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+  }
+
+  .logo-head-text{
+    padding-top: 15px;
+  }
+
+  .logo{
+    padding-left: -20px;
+  }
+
+  main{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+  }
+
+  nav{
+    height: 100%;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    
+  }
+
+  nav ul{
+    list-style: none;
+    padding: 0;
+  }
+
+  nav ul li{
+    padding: 25px 0;
+    text-align: left;
+  }
+
+  nav ul li a{
+    text-decoration: none;
+    color: #FFFFFF;
+  }
+
+  .content-header{
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .content{
+    display: flex;
+    flex-direction: column;
+    margin-top: 25px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .grid-content{
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 20px;
+
+  }
+
+  .book1-text{
+    font-size: 10px;
+    font-weight: 600;
+    width: 120px;
+    color: white;
+  }
+
+  .book1{
+    height: 160px;
+  }
+
+  .small-text{
+    color: white;
+    font-size: 10px;
+  }
+
+  .elt{
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  .right-content{
+    padding-right: 30px;
+    
+  }
+
+  .right-content a{
+    color: yellow;
+  }
+
+  .left-content{
+    padding-left: 25px;
+    color: white;
+  }

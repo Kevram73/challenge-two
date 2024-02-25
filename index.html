@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-Learning</title>
+    <link rel="stylesheet" href="login.css">
+</head>
+<body>
+    <img src="./assets/back1.png" class="back1" alt="back1">
+    <div class="container">
+        <main id="main">
+            <div class="title">
+                <h2>E.library</h2>
+            </div>
+            <div class="input-email">
+                <label for="email">Email address</label>
+                <input type="email" name="email" id="email" placeholder="Enter email address">
+            </div>
+            <div class="input-password">
+                <label for="password">Password</label>
+                <input type="password" name="password" id="password" placeholder="Enter password">
+            </div>
+            <div class="password-bottom">Forgot password?</div>
+            <div class="bottom-things">
+                <div class="login-button">
+                    <button onclick="goto()">Login</button>
+                </div>
+        
+                <div class="text-between">or</div>
+        
+                <div class="institutional-button">
+                    <button> <img src="./assets/fav.png" alt="favi" class="favi"> Institutional Email</button>
+                </div>
+            </div>
+            
+        </main>
+    </div>
+
+    <script>
+        function goto() {
+            window.location.href = "./main.html";
+        }
+    </script>
+</body>
+</html>
